@@ -17,7 +17,7 @@
 
 ###
 
-<p align="left">👩🏻‍💻 New Software Engineer building high-performance systems in C++<br>🎨 Sharing experiments with OpenGL, audio/video integration, and editor tools<br>📚 Currently learning front-end development and Spring Boot<br>⚡ In my free time: running 🏃, hitting the gym 💪, and developing games 👾</p>
+<p align="left">👩🏻‍💻 New Software Engineer building high-performance systems in C++<br>🎨 Sharing experiments with OpenGL, audio/video integration, and editor tools<br>📚 Currently learning front-end development, Spring Boot 🌱 and Docker 🐋<br>⚡ In my free time: running 🏃, hitting the gym 💪, and developing games 👾</p>
 
 ###
 
