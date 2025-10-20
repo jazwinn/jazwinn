@@ -1,10 +1,8 @@
-<div align="center">
-  <img height="150" src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExMjhzcm5jdThyZ245YnRzdDRlbGsxdGNyMW5nMWxlcHNwbnk3dTQyNyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/HzPtbOKyBoBFsK4hyc/giphy.gif"  />
-</div>
+<h1 align="center">👋 Hi, I'm Jaz Winn</h1>
 
 ###
 
-<div align="center">
+<div align="left">
   <a href="https://www.linkedin.com/in/jazwinn-ng/" target="_blank">
     <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="linkedin logo"  />
   </a>
@@ -12,16 +10,6 @@
     <img src="https://img.shields.io/static/v1?message=Gmail&logo=gmail&label=&color=D14836&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="gmail logo"  />
   </a>
 </div>
-
-###
-
-<div align="center">
-  <img src="https://visitor-badge.laobi.icu/badge?page_id=jazwinn.jazwinn&"  />
-</div>
-
-###
-
-<h1 align="center">👋 Hi, I'm Jaz Winn</h1>
 
 ###
 
@@ -66,6 +54,14 @@
 ###
 
 <h3 align="left">🔥   My Stats :</h3>
+
+###
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/jazwinn/jazwinn/output/pacman-contribution-graph-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/jazwinn/jazwinn/output/pacman-contribution-graph.svg">
+  <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/jazwinn/jazwinn/output/pacman-contribution-graph.svg">
+</picture>
 
 ###
 
