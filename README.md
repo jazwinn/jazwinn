@@ -4,7 +4,7 @@
 <div align="center">
 
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=800&color=24C6DC&center=true&vCenter=true&width=720&lines=Building+game+engines+from+scratch+in+C%2B%2B+%F0%9F%8E%AE;Writing+LLM+inference+in+C%2B%2B20+%2B+CUDA+%E2%9A%A1;Real-time+computer+vision+with+YOLO+%26+SAM+%F0%9F%93%B7;Rendering%2C+ECS%2C+reflection%2C+physics+%F0%9F%A7%A9;Always+shipping%2C+always+learning+%F0%9F%9A%80" alt="Typing intro" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=800&color=24C6DC&center=true&vCenter=true&width=720&lines=Building+a+real-time+C%2B%2B20+3D+engine+%F0%9F%8E%AE;Writing+LLM+inference+in+C%2B%2B20+%2B+CUDA+%E2%9A%A1;Real-time+computer+vision+with+YOLO+%26+SAM+%F0%9F%93%B7;Rendering%2C+ECS%2C+reflection%2C+physics+%F0%9F%A7%A9;Always+shipping%2C+always+learning+%F0%9F%9A%80" alt="Typing intro" />
 </a>
 
 <br/>
@@ -26,7 +26,7 @@ struct JazWinn {
     std::string builds    = "high-performance systems";
 
     std::vector<std::string> shipped = {
-        "3D game engine (ECS, reflection, PhysX)",
+        "real-time C++20 3D engine (ECS, reflection, PhysX)",
         "LLM inference engine (C++20 + CUDA)",
         "real-time computer vision pipelines",
     };
@@ -65,7 +65,7 @@ Transformer inference engine written **from scratch in C++20** with zero ML depe
 <td width="50%" valign="top">
 
 ### 🎮 [KosEngine 2.0](https://github.com/jazwinn/Kos-Engine-2.0)
-Modular, high-performance **3D game engine** in modern C++. **ECS architecture**, **compile-time reflection**, C++ scripting, **PhysX** physics, an asset system, and automated testing with GoogleTest in CI.
+Modular, high-performance **real-time C++20 3D engine**. **ECS architecture**, **compile-time reflection**, C++ scripting, **PhysX** physics, an asset system, and automated testing with GoogleTest in CI.
 
 ![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
 ![OpenGL](https://img.shields.io/badge/OpenGL-5586A4?style=flat-square&logo=opengl&logoColor=white)
@@ -156,6 +156,7 @@ Push-up assistant inspired by Singapore's **ELISS** machine — **YOLO pose esti
 
 </div>
 
+<!-- GitHub Activity (hidden)
 <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%" alt="divider" />
 
 ## 📊 GitHub Activity
@@ -177,6 +178,7 @@ Push-up assistant inspired by Singapore's **ELISS** machine — **YOLO pose esti
 </picture>
 
 </div>
+-->
 
 <!-- ======================= FOOTER ======================= -->
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:24c6dc,50:302b63,100:0f0c29&height=120&section=footer" width="100%" alt="footer" />
