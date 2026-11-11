@@ -143,12 +143,16 @@ Push-up assistant inspired by Singapore's **ELISS** machine — **YOLO pose esti
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=cpp,c,py,pytorch,opencv,cmake,git,docker,linux,visualstudio&perline=10" alt="C++, C, Python, PyTorch, OpenCV, CMake, Git, Docker, Linux, Visual Studio" />
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=cpp,c,py,pytorch,opencv,cmake,git,docker,linux,visualstudio&perline=10" alt="C++, C, Python, PyTorch, OpenCV, CMake, Git, Docker, Linux, Visual Studio" />
+</p>
 
-<img src="https://img.shields.io/badge/CUDA-76B900?style=for-the-badge&logo=nvidia&logoColor=white" alt="CUDA" />
-<img src="https://img.shields.io/badge/OpenGL-5586A4?style=for-the-badge&logo=opengl&logoColor=white" alt="OpenGL" />
-<img src="https://img.shields.io/badge/Ultralytics_YOLO-111F68?style=for-the-badge" alt="Ultralytics YOLO" />
-<img src="https://img.shields.io/badge/Hugging_Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black" alt="Hugging Face" />
+<p align="center">
+  <img src="https://img.shields.io/badge/CUDA-76B900?style=for-the-badge&logo=nvidia&logoColor=white" alt="CUDA" />
+  <img src="https://img.shields.io/badge/OpenGL-5586A4?style=for-the-badge&logo=opengl&logoColor=white" alt="OpenGL" />
+  <img src="https://img.shields.io/badge/Ultralytics_YOLO-111F68?style=for-the-badge" alt="Ultralytics YOLO" />
+  <img src="https://img.shields.io/badge/Hugging_Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black" alt="Hugging Face" />
+</p>
 
 </div>
 
