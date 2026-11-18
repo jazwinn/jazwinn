@@ -64,6 +64,18 @@ Transformer inference engine written **from scratch in C++20** with zero ML depe
 </td>
 <td width="50%" valign="top">
 
+### ⚡ [OptimizedTransformerLayer](https://github.com/jazwinn/OptimizedTransformerLayer)
+Hand-written **CUDA kernels** for a Transformer layer, including a fused **tensor-core attention** kernel that keeps the score grid on-chip. **10.04× faster** than the reference on average (best 46.9×), with every output inside the accuracy tolerance. Profiled with **Nsight**.
+
+![CUDA](https://img.shields.io/badge/CUDA-76B900?style=flat-square&logo=nvidia&logoColor=white)
+![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
 ### 🎮 [KosEngine 2.0](https://github.com/jazwinn/Kos-Engine-2.0)
 Modular, high-performance **real-time C++20 3D engine**. **ECS architecture**, **compile-time reflection**, C++ scripting, **PhysX** physics, an asset system, and automated testing with GoogleTest in CI.
 
@@ -72,40 +84,18 @@ Modular, high-performance **real-time C++20 3D engine**. **ECS architecture**, *
 ![CMake](https://img.shields.io/badge/CMake-064F8C?style=flat-square&logo=cmake&logoColor=white)
 
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 
-### 🎯 [OneShotSeg](https://github.com/jazwinn/OneShotSeg)
-Segment and track **any object from a single drawn box** — no training data, no labels, no fine-tuning. FastSAM + OSNet Re-ID tracking, **real time on one consumer GPU**.
+### 🕳️ [Procedural Cave Generation](https://github.com/jazwinn/Procedural-Cave-Generation)
+Generates 3D caves with **four algorithms** (cellular automata, BSP, Perlin noise, random) on a chunked voxel world, rendered as blocks, **greedy-meshed** quads or **marching-cubes** surfaces, with multithreaded chunk meshing and live ImGui tuning.
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
-![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white)
-
-</td>
-<td width="50%" valign="top">
-
-### 🔀 [AdaptiveVisionPipeline](https://github.com/jazwinn/AdaptiveVisionPipeline)
-Object detection that **watches its own performance** — a meta-controller reads motion, blur, lighting and confidence signals and **switches detection pipelines in real time**.
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![YOLO](https://img.shields.io/badge/YOLO-111F68?style=flat-square)
-![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white)
+![C++](https://img.shields.io/badge/C++20-00599C?style=flat-square&logo=cplusplus&logoColor=white)
+![OpenGL](https://img.shields.io/badge/OpenGL-5586A4?style=flat-square&logo=opengl&logoColor=white)
+![GLSL](https://img.shields.io/badge/GLSL-302b63?style=flat-square)
 
 </td>
 </tr>
 <tr>
-<td width="50%" valign="top">
-
-### 🏷️ [Groundwork](https://github.com/jazwinn/Groundwork)
-Label datasets and **train CV models from the browser**, fully local. Uses **SAM 3** for zero-shot auto-labelling and **Ultralytics YOLO** for training, export and ONNX conversion.
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![YOLO](https://img.shields.io/badge/Ultralytics-111F68?style=flat-square)
-![ONNX](https://img.shields.io/badge/ONNX-005CED?style=flat-square&logo=onnx&logoColor=white)
-
-</td>
 <td width="50%" valign="top">
 
 ### 💪 [ELISS Push-Up Counter](https://github.com/jazwinn/OpenCV-ELISS-PushUpCounter)
@@ -114,6 +104,16 @@ Push-up assistant inspired by Singapore's **ELISS** machine — **YOLO pose esti
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![YOLO](https://img.shields.io/badge/YOLO_Pose-111F68?style=flat-square)
 ![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white)
+
+</td>
+<td width="50%" valign="top">
+
+### 👥 [CrowdSim](https://github.com/jazwinn/CrowdSim)
+Real-time **3D crowd simulator and editor** in C++20. **50,000 agents in 15 ms per step**, deterministic on any thread count. Navmeshes, ORCA avoidance, **behaviour trees** with Lua nodes, crowd pressure, escalators, and an **MCP server** so AI agents can drive it.
+
+![C++](https://img.shields.io/badge/C++20-00599C?style=flat-square&logo=cplusplus&logoColor=white)
+![Lua](https://img.shields.io/badge/LuaJIT-000080?style=flat-square&logo=lua&logoColor=white)
+![MCP](https://img.shields.io/badge/MCP-8A2BE2?style=flat-square)
 
 </td>
 </tr>
@@ -125,11 +125,12 @@ Push-up assistant inspired by Singapore's **ELISS** machine — **YOLO pose esti
 
 | Project | What it does | Stack |
 |---|---|---|
+| [OneShotSeg](https://github.com/jazwinn/OneShotSeg) | Segment and track any object from one drawn box, real time on one GPU | Python · PyTorch · OpenCV |
+| [AdaptiveVisionPipeline](https://github.com/jazwinn/AdaptiveVisionPipeline) | Detection that switches pipelines in real time based on scene conditions | Python · YOLO · OpenCV |
+| [Groundwork](https://github.com/jazwinn/Groundwork) | Local dataset labelling with SAM 3 and YOLO training in the browser | Python · Ultralytics |
 | [Graphics-Engine](https://github.com/jazwinn/Graphics-Engine) | Ongoing graphics engine library | C++ · OpenGL |
 | [BVH Spatial Data Structure](https://github.com/jazwinn/Spatial-Data-Structure-using-Bounding-Volume-Hierarchy-BVH-) | Faster 3D rendering with a Bounding Volume Hierarchy | C++ |
 | [Kd-Tree Raytracing](https://github.com/jazwinn/Spatial-Data-Structure-using-Kd-Tree-for-Raytracing) | Accelerating a raytracer with a Kd-tree | C++ |
-| [Procedural Cave Generation](https://github.com/jazwinn/Procedural-Cave-Generation) | Comparing procedural algorithms for cave systems | C++ |
-| [OptimizedTransformerLayer](https://github.com/jazwinn/OptimizedTransformerLayer) | Transformer layer optimized for local hardware | Python |
 | [Server-Client File Sharing](https://github.com/jazwinn/Server-Client-file-sharing) | TCP client/server with UDP file transfer | C++ |
 | [React Stock Viewer](https://github.com/jazwinn/React-Web-Stock-Viewer) | Stock prices, news and AI summaries | React · Node · Tailwind |
 | [Inventory Web App](https://github.com/jazwinn/Inventory-Web-Application) | Full-stack CRUD with a REST API | Java · Spring Boot · SQL |
